@@ -7,7 +7,7 @@ sudo: true
 
 install:
   - pip install -r requirements.txt
-  - ./share/travis_setup.sh
+  - sh /share/travis_setup.sh
 
 script:
   # run unit tests
