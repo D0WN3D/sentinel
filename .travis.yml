@@ -7,7 +7,7 @@ sudo: true
 
 install:
   - pip install -r requirements.txt
-  - cd /share
+  - cd share
   - sh travis_setup.sh
 
 script:
